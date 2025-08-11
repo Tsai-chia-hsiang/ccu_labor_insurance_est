@@ -2,6 +2,8 @@
 
 Calculates each person’s total wage for the month, with estimated extra insurance paid by the employer.
 
+*This is pecific to our insurance scheme and may differ from others*
+
 ## Environment
 - **OS**: Windows 11  
 - **Compiler**: Visual Studio 2022  
