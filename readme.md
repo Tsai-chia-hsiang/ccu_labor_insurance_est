@@ -11,20 +11,21 @@ Calculates each person’s total wage for the month, with estimated extra insura
 > Should also work on Linux with GCC.
 
 ## Execution in CLI
-- **Main file**: `main.cpp`  
-- **Steps**:  
-  1. Compile `main.cpp` with your compiler.  
+Main file: `main.cpp`  
+### Steps:  
+1. Compile `main.cpp` with your compiler.  
     - e.g. ```.\cmpmain.ps1``` 
-      - for win11 with VC and powershell 
-  2. Run the resulting executable.  
-  3. **Arguments**:  
-    - Path to this month’s insurance log for each person.  
+      - for win11 with VC and PowerShell 
+2. Run the resulting executable.  
+   - Arguments:  
+       1. Path to this month’s insurance log for each person.  
 
-- **Example**:  
-    ```powershell
-    .\out.exe .\insure_log\2025_07_m2.json
-    ```
+### Example:  
+For win11 with PowerShell
+```
+.\out.exe .\insure_log\2025_07_m2.json
+```
 ## TODO
-- GUI 
-  - Web form will be better
-  - Interactive
+- GUI
+  - A web-based form would be preferable.
+  - Provide interactive features for easier and more convenient estimation.
