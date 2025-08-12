@@ -22,6 +22,34 @@ Main file: `main.cpp`
    - Arguments:  
        1. Path to this month’s insurance log for each person.  
 
+### JSON working log file format 
+A list of each one's insurance log
+- Each element is an object, with the key 
+  - name: personID 
+  - seq: A list of working period of this month
+    - e.g. : a period for $t$hr/day for $D$ days: ```[t, D]```
+
+
+```JSON
+[
+  {
+    "name": "0",
+    "seq": [
+      [8, 4],
+      [8, 1],
+      [5, 1]
+    ]
+  },
+  {
+    "name": "1",
+    "seq": [
+      [8, 5],
+      [3, 1],
+    ]
+  }
+]
+```
+
 ### Example:  
 For win11 with PowerShell
 ```
@@ -31,3 +59,4 @@ For win11 with PowerShell
 - GUI
   - A web-based form would be preferable.
   - Provide interactive features for easier and more convenient estimation.
+
