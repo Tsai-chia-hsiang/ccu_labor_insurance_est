@@ -27,7 +27,7 @@ A list of each one's insurance log
 - Each element is an object, with the key 
   - name: personID 
   - seq: A list of working period of this month
-    - e.g. : a period for $t$hr/day for $D$ days: ```[t, D]```
+    - e.g. : a period for $t$ hr/day for $D$ days: ```[t, D]```
 
 
 ```JSON
